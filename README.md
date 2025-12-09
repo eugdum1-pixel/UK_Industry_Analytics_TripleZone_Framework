@@ -1,17 +1,20 @@
-# My_Cleaning_Data_Project
-A project which describes in detail how to clean/validate/categorise/apply labels to your Data
+# Project 1: Data Cleaning & Preparation
 
-Source where I found the dataset: " https://www.kaggle.com/datasets/nelgiriyewithana/global-weather-repository ". 
-**General Dataset Overview: 
-*****Rows:    107,963
-*****Columns: 41
-**Type of dataset: Weather + Air Quality + Location + Astronomy
-**This dataset is ideal for:
-*****data cleaning practice;
-*****feature engineering
-*****forecasting;
-*****classification tasks;
-*****air-quality analysis.
+## Overview
+This project demonstrates professional data cleaning techniques on the GlobalWeatherRepository dataset (107,963 rows × 41 columns).
+
+## What This Project Shows
+- ✅ Data quality assessment (missing values, duplicates, outliers)
+- ✅ Systematic data cleaning approach
+- ✅ Before/after comparison with visualisations
+- ✅ Professional documentation and code comments
+
+## Files in This Project
+- `data_cleaning.py` - Main Python script with detailed battleplan comments
+- `GlobalWeather_CLEANED.csv` - Cleaned dataset (output)
+- `data_quality_report_BEFORE.txt` - Initial data quality assessment
+- `visualisations`/` - Before/after comparison charts
+
 
 
 
