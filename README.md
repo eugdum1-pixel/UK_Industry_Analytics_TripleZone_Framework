@@ -125,24 +125,30 @@ To transform raw data into a structured knowledge base, we implement a custom en
 
 
 
-<p align="center"> <h2>🧠 STAGE 3: VECTORIZATION & NEURAL EMBEDDINGS</h2> </p>
+<p align="center">
+  <h2>🧠 STAGE 3: NEURAL VECTORIZATION</h2>
+</p>
 
-Now we enter the most "AI" part of the project. Computers cannot "read" text like we do; they read Numbers. Specifically, they read Vectors.
+To enable semantic search and AI context-awareness, the enriched dataset was transformed into dense vector embeddings. This allows the system to retrieve information based on **meaning** rather than just keyword matching.
 
-🔍 What happens in Stage 3?
-We will take your Enriched JSONs and pass them through a Sentence Transformer model (locally, using your venv).
+### 🔬 Technical Specifications
+| Attribute | Specification |
+| :--- | :--- |
+| **Model** | `all-MiniLM-L6-v2` (Sentence-Transformers) |
+| **Dimensionality** | 384-dimensional dense vectors |
+| **Total Vectors** | 13,938 |
+| **Format** | Compressed NumPy Archive (.npz) |
 
-The Process: Each text_preview is converted into a list of 384 or 768 floating-point numbers (a Vector).
+### 📂 Stage 3 Assets
+* **Vectorization Script:** [`create_embeddings.py`](./Project_Final/create_embeddings.py)
+* **Neural Weight Store:** `semantic_vectors.npz` (Local binary storage)
 
-The Goal: If two pieces of data talk about "AI Safety" and "Regulatory Ethics," their vectors will be "mathematically close" to each other. This is how the AI "understands" context.
+> [!NOTE]
+> This stage represents the "Neural Mapping" of the project. By converting text to numbers, we prepare the pipeline for integration into high-performance Vector Databases or direct MCP tool-calling.
 
-🛠️ The Next Technical Task: create_embeddings.py
-This script will be the heaviest one so far. It will:
 
-Load a local embedding model (like all-MiniLM-L6-v2).
+### ✅ Final Validation & Results
+The pipeline successfully processed **13,952 total units** with a **99.90% integrity rate**. 
 
-Iterate through your PROGRES_SIGUR_ENRICHED folder.
-
-Generate a mathematical representation for every single unit.
-
-Prepare the data for Stage 4 (The Vector Database).
+**Example Query Success:**
+When asked about *'Government safety standards for AI'*, the RAG engine successfully bypassed technical code noise to retrieve high-relevance policymaking evidence from **Zone A**, citing responsibilities from international bodies like the **OECD**.
