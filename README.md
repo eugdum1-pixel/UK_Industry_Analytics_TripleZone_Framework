@@ -10,6 +10,13 @@ Architecting intelligence from raw data units for private, local-first semantic 
 ## Overview
 This repository documents an end-to-end engineering pipeline that converts high-volume, unstructured industry data into a semantically aware knowledge system. The pipeline validates, enriches, vectorizes, and serves data via a local RAG-enabled query engine. The project is intended as a blueprint for private, reproducible, production-grade local AI.
 
+### 🗺️ The Triple-Zone Framework
+Explore the specialized analytical layers:
+
+* 🏛️ **[ZONE A: PUBLIC POLICY & ETHICS](./ZONE_A_POLICY)**
+* 💰 **[ZONE B: BUSINESS IMPACT](./ZONE_B_BUSINESS)**
+* 🎓 **[ZONE C: WORKFORCE & SKILLS](./ZONE_C_WORKFORCE)**
+
 Key metrics
 - Total raw data units processed: **13,952**
 - Successfully validated units: **13,938**
