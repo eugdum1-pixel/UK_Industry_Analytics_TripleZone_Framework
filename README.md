@@ -99,3 +99,20 @@ if __name__ == "__main__":
     DATA_DIR = "./data/chunks" 
     validate_data_integrity(DATA_DIR)
 
+<p align="center">
+  <h2>🏷️ STAGE 2: SEMANTIC TAXONOMY</h2>
+</p>
+
+To transform raw data into a structured knowledge base, we implement a custom enrichment pipeline. This process categorizes each data unit into one of three thematic "Zones" based on specific industry keywords.
+
+| Zone | Category | Logic / Keywords | Goal |
+| :--- | :--- | :--- | :--- |
+| **Zone A** | **Public & Policy** | Government, NHS, Ethics, Safety, Policy | Ensuring the AI understands regulatory guardrails. |
+| **Zone B** | **Business Impact** | Investment, Market, Revenue, Startups | Focusing on economic growth and industry scale. |
+| **Zone C** | **Future of Work** | Skills, Automation, Jobs, Training | Preparing the AI for human-centric labor evolution. |
+
+---
+
+### 📂 Stage 2 Assets
+* **Enrichment Script:** [enrich_metadata.py](./Project_Final/enrich_metadata.py)
+* **Output Directory:** `PROGRES_SIGUR_ENRICHED/`
