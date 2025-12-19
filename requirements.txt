@@ -1,0 +1,20 @@
+# Data Manipulation & Cleaning
+pandas==2.2.0
+numpy==1.26.0
+
+# Database Connectivity
+SQLAlchemy==2.0.25
+psycopg2-binary==2.9.9  # Dacă folosești PostgreSQL (sau mysql-connector-python pentru MySQL)
+
+# AI & NLP (RAG and Semantic Processing)
+sentence-transformers==2.3.1
+torch==2.2.0
+ollama==0.1.6
+
+# File Handling & Validation
+orjson==3.9.15
+pydantic==2.6.1
+
+# Visualization (Optional, for Python-based charts)
+matplotlib==3.8.2
+seaborn==0.13.2
