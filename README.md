@@ -107,12 +107,42 @@ To transform raw data into a structured knowledge base, we implement a custom en
 
 | Zone | Category | Logic / Keywords | Goal |
 | :--- | :--- | :--- | :--- |
-| **Zone A** | **Public & Policy** | Government, NHS, Ethics, Safety, Policy | Ensuring the AI understands regulatory guardrails. |
+| **Zone A** | **Public & Policy** | Government, NHS, Ethics, Safety | Ensuring AI understands regulatory guardrails. |
 | **Zone B** | **Business Impact** | Investment, Market, Revenue, Startups | Focusing on economic growth and industry scale. |
-| **Zone C** | **Future of Work** | Skills, Automation, Jobs, Training | Preparing the AI for human-centric labor evolution. |
+| **Zone C** | **Future of Work** | Skills, Automation, Jobs, Training | Preparing AI for human-centric labor evolution. |
+
+### 📊 Enrichment Statistics (Latest Audit)
+* **Zone A (Public/Policy):** [Paste Number From Terminal] units
+* **Zone B (Business/Impact):** [Paste Number From Terminal] units
+* **Zone C (Future of Work):** [Paste Number From Terminal] units
+* **Uncategorized:** [Paste Number From Terminal] units
 
 ---
 
-### 📂 Stage 2 Assets
-* **Enrichment Script:** [enrich_metadata.py](./Project_Final/enrich_metadata.py)
-* **Output Directory:** `PROGRES_SIGUR_ENRICHED/`
+### 📂 Stage 2 Tooling
+* **Enrichment Engine:** [`enrich_metadata.py`](./Project_Final/enrich_metadata.py)
+* **Audit Utility:** [`audit_enrichment.py`](./Project_Final/audit_enrichment.py)
+
+
+
+<p align="center"> <h2>🧠 STAGE 3: VECTORIZATION & NEURAL EMBEDDINGS</h2> </p>
+
+Now we enter the most "AI" part of the project. Computers cannot "read" text like we do; they read Numbers. Specifically, they read Vectors.
+
+🔍 What happens in Stage 3?
+We will take your Enriched JSONs and pass them through a Sentence Transformer model (locally, using your venv).
+
+The Process: Each text_preview is converted into a list of 384 or 768 floating-point numbers (a Vector).
+
+The Goal: If two pieces of data talk about "AI Safety" and "Regulatory Ethics," their vectors will be "mathematically close" to each other. This is how the AI "understands" context.
+
+🛠️ The Next Technical Task: create_embeddings.py
+This script will be the heaviest one so far. It will:
+
+Load a local embedding model (like all-MiniLM-L6-v2).
+
+Iterate through your PROGRES_SIGUR_ENRICHED folder.
+
+Generate a mathematical representation for every single unit.
+
+Prepare the data for Stage 4 (The Vector Database).
