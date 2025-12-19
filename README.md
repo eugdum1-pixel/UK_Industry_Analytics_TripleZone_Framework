@@ -122,9 +122,15 @@ python -m pip install -r requirements.txt
 
 ---
 
-## Contributing
-- Open an issue describing desired changes.  
-- Or submit a pull request with documentation or script fixes.
+## Contributing & Feedback
+
+This repository is primarily maintained as a personal portfolio and technical showcase.
+
+Constructive feedback, technical discussions, or suggestions for improvement are welcome.
+
+If you are interested in the architectural decisions, implementation details, or potential extensions of this project, feel free to open an issue or reach out directly.
+
+For professional or collaboration-related inquiries, please use the contact details provided below.
 
 ---
 
@@ -134,8 +140,3 @@ python -m pip install -r requirements.txt
 
 ---
 
-## Quick preview tip
-If the GitHub preview shows sections merging:
-- Ensure there is an empty line between headings/paragraphs and the next block.  
-- Use fenced code blocks (```bash) for commands.  
-- If tables look misaligned, make sure the pipe characters are present and there is a blank line before the table.
