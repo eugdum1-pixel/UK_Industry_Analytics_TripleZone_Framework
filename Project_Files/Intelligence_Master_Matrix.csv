@@ -1,0 +1,16 @@
+Unit ID,Unit Name (Technical Component),Zone,Reliability (%),Business Impact (ROI %),Complexity Index,,,,
+1,Ethical_Audit_Kernel_v4,Zone A,98.2,12.5,8,,93.36666667,-----,"The average reliability score. If it falls below 95%, the system triggers a compliance alert."
+2,UK_AI_WhitePaper_Aligner,Zone A,97.5,10.2,7,,7.158415842,-----,Ratios peak ROI against average complexity to validate resource optimization and ecosystem performance.
+3,Compliance_Scanner_A3,Zone A,96.8,11,7,,7.351419546,-----,Stability Index: Benchmarks system reliability against ROI volatility to ensure predictable and sustainable ecosystem growth.
+4,Governance_Safety_Net_A4,Zone A,95.5,13.4,6,,STDEV,-----,Standard Deviation=A statistical tool that measures data consistency and economic predictability.
+5,Public_Rigor_Validator_A5,Zone A,98.8,9.8,9,,,,
+6,Predictive_Logistics_Engine,Zone B,89.2,32.5,7,,,,
+7,Energy_Grid_Optimizer_X1,Zone B,91.5,28.7,9,,,,
+8,Supply_Chain_Optimizer_B8,Zone B,88.4,35.2,8,,,,
+9,Factory_Output_AI_B9,Zone B,90.1,31,8,,,,
+10,Revenue_Growth_Module_B10,Zone B,87.9,38.5,7,,,,
+11,Human_AI_Synergy_Interface,Zone C,93.5,42,5,,,,
+12,Data_Literacy_Training_API,Zone C,91.2,18.5,4,,,,
+13,Talent_Upskilling_Module_C13,Zone C,94.8,25.4,5,,,,
+14,Workforce_Adaptability_C14,Zone C,92.1,33.7,5,,,,
+15,Synergy_Optimizer_v2_C15,Zone C,95,48.2,6,,,,
