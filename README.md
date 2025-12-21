@@ -10,6 +10,19 @@ Data Integrity: 99.90% (13,938 validated units)
 
 Architecture: Retrieval-Augmented Generation (RAG) using 384-dimensional neural embeddings.
 
+## 📊 Analytics & Visualisations
+> Strategic insights derived from the Triple-Zone Framework monitoring industrial AI performance.
+
+### 📈 Executive Performance Overview
+<img src="Visualisations/Watches.png" width="800" alt="Executive KPI Gauges">
+
+*Figure 1: Real-time monitoring showing an average **ROI of 26.04%** and **93.37% System Reliability**.*
+
+### 🎯 Strategic Alignment Matrix
+<img src="Visualisations/Strategic_Matrix.png" width="800" alt="Strategic Matrix">
+
+*Figure 2: Tableau-based strategic mapping of Intelligence Zones (A, B, and C).*
+
 # 🗺️ The Triple-Zone Framework
 This framework organises industrial data into three distinct impact layers, reflected in the integrated dashboards:
 
