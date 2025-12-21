@@ -25,3 +25,25 @@ Validation: Filtering information units through the lens of legislative complian
 | **Ethical Frameworks** | 38 | 94% | Active Review |
 | **UK AI Policy** | 35 | 91% | Compliant |
 | **Data Governance** | 26 | 88% | Pending Update |
+
+# 🏛️ 01. ZONE A: PUBLIC RIGOR & ETHICAL COMPLIANCE
+
+This pillar focuses on the regulatory and ethical integration of industrial AI, specifically aligning with UK safety standards and the AI White Paper.
+
+### 📋 Public Rigor & Reliability Data Table
+| Unit Category | Total Units (N=141) | Reliability Score | Governance Status |
+| :--- | :--- | :--- | :--- |
+| **Safety Standards** | 42 | 98% | Fully Audited |
+| **Ethical Frameworks** | 38 | 94% | Active Review |
+| **UK AI Policy** | 35 | 91% | Compliant |
+| **Data Governance** | 26 | 88% | Pending Update |
+
+### 📊 Visual Evidence Suite (Regulatory Compliance)
+Here are the primary and deep-dive visualisations for Zone A:
+
+![Primary Classification](zone_a_classification.png)
+![Distribution Pie](zone_a_pie_distribution.png)
+![Reliability Heatmap](zone_a_heatmap.png)
+![Complexity Variance](zone_a_complexity.png)
+
+> **Metric Insight:** 98% reliability in Safety Standards indicates a high readiness level for UK-based industrial deployment.
